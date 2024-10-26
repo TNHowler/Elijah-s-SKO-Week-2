@@ -1,3 +1,5 @@
+//GitHub Copilot assisted in writing this code.
+
 var elevator;
 var ellipses = [];
 let InterstateBCFont;
@@ -64,9 +66,9 @@ function draw() {
 
   textAlign(CENTER, CENTER);
   textSize(windowWidth / 50);
-  textFont(InterstateBCFont); // Apply the custom font
+  textFont(InterstateBCFont); 
   noStroke();
-  fill(0); // Set text color to black
+  fill(0); 
   text(
     "Codewords Creative Coding and Typography",
     width / 2.5,
@@ -78,9 +80,9 @@ function draw() {
   // Display text in the middle of the screen
   textAlign(CENTER, CENTER);
   textSize(windowWidth / 115);
-  textFont(InterstateBCFont); // Apply the custom font
+  textFont(InterstateBCFont); 
   noStroke();
-  fill(0); // Set text color to black
+  fill(0); 
   text(
     "In week 2 we looked at concrete poetry. I was particularly inspired by these three pieces. The piece by Dom Sylvester and the first piece of Edwin Morgan inspired me to try writing different words of the phrase “This document wants to blow you. Go to finder? OK” in random spots so the viewer as to look around the whole page multiple times to get the whole phrase. The second piece by Edwin Morgan I quite literally replicated with the phrase. \n\nFor the last activity we had to create paper prototypes of video games. My group, Peran, Kai, Kevin and I recreated Mortal Kombat. Our creation featured, movement keys, movable characters, a health bar and an explosion for big hits. \n\nIn the afternoon class we organised our GitHub accounts and as a class we looked over the HTML work we did the previous week  to see the amazing work that everyone had done. Alvin's work was easily my favourite.",
     width / 3,
